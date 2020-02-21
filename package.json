@@ -35,5 +35,9 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "gsap": "^3.1.1",
+    "wowjs": "^1.1.3"
   }
 }

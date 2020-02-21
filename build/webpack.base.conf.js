@@ -20,6 +20,7 @@ module.exports = {
   },
   entry: {
     app: PATHS.src,
+    another: `${PATHS.src}/another`
   },
   output: {
     filename: `${PATHS.assets}js/[name].js`,
@@ -86,7 +87,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: `${PAGES_DIR}/index.html`,
       filename: `./index.html`,
-      chunks: [ 'app' ]
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/another.html`,
+      filename: `./another.html`,
+      excludeChunks: ['app']
     }),
   ]
 };
