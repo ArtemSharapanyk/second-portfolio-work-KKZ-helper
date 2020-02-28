@@ -1,6 +1,6 @@
 import './assets/css/mainSettings.css';
-import './assets/css/mainPage/main.css';
-import './assets/css/media/mainPage.css';
+import './assets/css/homeWorkPage/main.css';
+import './assets/css/media/homePageMedia.css'
 
 document.addEventListener('DOMContentLoaded', () => {
     const menuAdder = require('./js/menu');

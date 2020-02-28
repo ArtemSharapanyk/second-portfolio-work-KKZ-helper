@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+    .mainBlock{
+        width: 49%;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap ;
+    }
+}

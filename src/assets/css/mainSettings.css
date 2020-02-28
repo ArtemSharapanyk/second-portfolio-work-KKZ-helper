@@ -1,11 +1,40 @@
 @import './normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap&subset=cyrillic');
+@import './media/mainSettingsMedia.css';
 
 body{
     font-family: 'Roboto Mono', monospace;
     background-color: #000;
     color: #fff;
     position: relative;
+}
+.loader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 1;
+    background-color: #000;
+}
+.hideLoader{
+    opacity: 0;
+    pointer-events: none;
+}
+::-webkit-scrollbar{
+    width: .8% !important;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #7f7d7f;
+    border-radius: 40px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
 }
 *{
     box-sizing: border-box;
@@ -20,7 +49,7 @@ ul{
     display: flex;
 }
 header{
-    padding: 2% 0;
+    padding: 15px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -74,7 +103,7 @@ header .toggleBtn span{
     transition: .4s all ease-in-out;
 }
 .content{
-    padding: 50px 0 20px 0;
+    padding: 66px 0 20px 0;
 }
 .animateEl{
     opacity: 0;
@@ -84,6 +113,25 @@ header .activeMenuBtn .top, header .activeMenuBtn .bottom{
 }
 header .activeMenuBtn .top{
     transform: translateY(10px);
+}
+.mainBlock{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+.fix-body{
+    padding-bottom: 52px;
+}
+.bag-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.mainBlock span{
+    color: #787678;
 }
 header .activeMenuBtn .bottom{
     transform: translateY(-10px);

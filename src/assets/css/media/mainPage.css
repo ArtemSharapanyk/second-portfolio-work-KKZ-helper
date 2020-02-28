@@ -1,0 +1,10 @@
+@media screen and (min-width: 700px) {
+    .card{
+        width: 49%;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap ;
+    }
+}

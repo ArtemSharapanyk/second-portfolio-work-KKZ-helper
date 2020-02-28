@@ -1,0 +1,12 @@
+body{
+    min-height: 100vh;
+}
+.mainBlock{
+    display: flex;
+}
+.mainBlock span{
+    margin-left: 10px;
+}
+.mainBlock .telNb{
+    margin-left: 10px;
+}

@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.row .btn a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.row .btn {
+    width: 49%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    font-size: .8em;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+.row .btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .3s all ease-in-out;
+}
+body{
+    height: 100vh;
+}
+.row .long{
+    width: 100% !important;
+}

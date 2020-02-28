@@ -1,6 +1,7 @@
 import './assets/css/mainSettings.css';
-import './assets/css/mainPage/main.css';
-import './assets/css/media/mainPage.css';
+import './assets/css/listPage/main.css';
+import './assets/css/media/listPageMedia.css';
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const menuAdder = require('./js/menu');
@@ -11,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         resolve();
     }).then(() => {
         menuAdder('.menu', '.menu li', '.toggleBtn', '.logo');
-        new WOW().init()
+        new WOW().init();
     });
 });

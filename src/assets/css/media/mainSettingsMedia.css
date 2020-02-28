@@ -1,0 +1,5 @@
+@media screen and (min-width: 800px) {
+    .mobileM li {
+        padding: 2% 0 !important;
+    }
+}

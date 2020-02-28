@@ -20,7 +20,9 @@ module.exports = {
   },
   entry: {
     app: PATHS.src,
-    another: `${PATHS.src}/another`
+    another: `${PATHS.src}/another`,
+    homeWorkPage: `${PATHS.src}/homePage`,
+    listPage: `${PATHS.src}/listPage`
   },
   output: {
     filename: `${PATHS.assets}js/[name].js`,
@@ -87,11 +89,22 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: `${PAGES_DIR}/index.html`,
       filename: `./index.html`,
+      excludeChunks: ['another', 'homeWorkPage', 'listPage']
     }),
     new HtmlWebpackPlugin({
       template: `${PAGES_DIR}/another.html`,
       filename: `./another.html`,
-      excludeChunks: ['app']
+      excludeChunks: ['app', 'homeWorkPage', 'listPage']
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/dz.html`,
+      filename: `./dz.html`,
+      excludeChunks: ['app', 'another', 'listPage'],
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/listPage.html`,
+      filename: `./listPage.html`,
+      excludeChunks: ['app', 'another', 'homeWorkPage'],
     }),
   ]
 };
