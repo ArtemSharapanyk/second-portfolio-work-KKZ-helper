@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap&subset=cyrillic');
 @import './media/mainSettingsMedia.css';
 
+*{
+    -webkit-tap-highlight-color: transparent !important;
+}
 body{
     font-family: 'Roboto Mono', monospace;
     background-color: #000;
     color: #fff;
     position: relative;
+    min-height: 100vh;
 }
 .loader{
     width: 100%;
@@ -14,7 +18,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 100000;
     opacity: 1;
     background-color: #000;
 }
@@ -94,6 +98,7 @@ header .toggleBtn{
     position: relative;
     align-items: center;
     z-index: 111;
+    cursor: pointer;
 }
 header .toggleBtn span{
     display: block;
@@ -103,7 +108,7 @@ header .toggleBtn span{
     transition: .4s all ease-in-out;
 }
 .content{
-    padding: 66px 0 20px 0;
+    padding: 70px 0 20px 0;
 }
 .animateEl{
     opacity: 0;

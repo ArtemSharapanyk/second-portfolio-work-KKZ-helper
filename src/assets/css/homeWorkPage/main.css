@@ -2,9 +2,6 @@
     font-size: .8em !important;
     margin-top: 10px;
 }
-body{
-    min-height: 100vh;
-}
 .content .wrap{
     display: block;
 }

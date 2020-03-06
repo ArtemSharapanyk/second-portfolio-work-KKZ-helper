@@ -2,7 +2,7 @@ import './assets/css/mainSettings.css';
 import './assets/css/mainPage/main.css';
 import './assets/css/media/mainPage.css';
 
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     const menuAdder = require('./js/menu');
     const loader    = require('./js/loader');
         

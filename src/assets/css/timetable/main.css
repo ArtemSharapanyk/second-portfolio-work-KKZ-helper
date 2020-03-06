@@ -1,0 +1,13 @@
+.mainBlock .row{
+    text-align: center;
+    width: 100%;
+}
+.wrap{
+    justify-content: space-between;
+}
+.mainBlock ul {
+    padding: 0;
+}
+.mainBlock ul li{
+    padding: 10px 0 0 0;
+}

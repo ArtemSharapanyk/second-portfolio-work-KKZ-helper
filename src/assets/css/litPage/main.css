@@ -1,0 +1,47 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.title{
+    margin-bottom: 10px;
+}
+.row{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row span{
+    color: #fff !important;
+    transform: rotate(180deg);
+    transition: .2s all ease-in-out;
+}
+.activeSparrow{
+    transform: rotate(0deg) !important;
+}
+.tab .mainBlock{
+    text-align: center;
+}
+.tab .mainBlock .name{
+    margin-bottom: 5px;
+}
+.tab .mainBlock  span {
+    font-size: 1.3em !important;
+}
+.tab{
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.activeTab{
+    height: auto;
+}
+.tab .mainBlock {
+    font-size: .8em;
+}
+.mainBlock{
+    transition: .5s;
+}
+.tab .subsidiary span{
+    margin-right: 5px;
+}
+.tab .subsidiaryBl{
+    margin-bottom: 20px;
+}
