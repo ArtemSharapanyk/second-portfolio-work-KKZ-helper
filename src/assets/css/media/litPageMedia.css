@@ -8,3 +8,24 @@
         flex-wrap: wrap ;
     }
 }
+@media screen and (min-width: 1600px) {
+    .tab{
+        font-size: 1.5em;
+        height: 47px;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .tab{
+        font-size: 2em;
+        height: 56px;
+    }
+    .content{
+        padding: 90px 0 25px !important;
+    }
+}
+@media screen and (min-width: 3000px) {
+    .tab{
+        font-size: 2.5em;
+        height: 65px;
+    }
+}

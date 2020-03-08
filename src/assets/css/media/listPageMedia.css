@@ -8,3 +8,18 @@
         flex-wrap: wrap ;
     }
 }
+@media screen and (min-width: 2000px) {
+    .mainBlock{
+        font-size: 1.7em;
+    }
+}
+@media screen and (min-width: 2500px) {
+    .mainBlock{
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 3000px) {
+    .mainBlock{
+        font-size: 2.7em;
+    }
+}

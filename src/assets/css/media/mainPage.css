@@ -8,3 +8,16 @@
         flex-wrap: wrap ;
     }
 }
+@media screen and (min-width: 1600px ) {
+    .card{
+        height: 300px;
+    }
+}
+@media screen and (min-width: 2200px ) {
+    .card .name{
+        font-size: 2em;
+    }
+    .card{
+        height: 400px;
+    }
+}

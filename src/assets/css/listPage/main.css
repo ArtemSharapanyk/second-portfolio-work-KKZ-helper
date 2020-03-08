@@ -10,3 +10,7 @@ body{
 .mainBlock .telNb{
     margin-left: 10px;
 }
+.best{
+    background-color: #fff;
+    color: #000 !important;
+}

@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
         resolve();
     }).then(() => {
         menuAdder('.menu', '.menu li', '.toggleBtn', '.logo');
-        new WOW().init()
+        new WOW().init();
     });
 });

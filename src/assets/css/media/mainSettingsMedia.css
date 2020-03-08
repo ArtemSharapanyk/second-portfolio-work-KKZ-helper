@@ -3,3 +3,30 @@
         padding: 2% 0 !important;
     }
 }
+@media screen and (min-width: 1600px) {
+    .wrapper{
+        max-width: 90% !important;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 2200px ) {
+    .mobileM a {
+        font-size: 2em;
+    }
+    .logo{
+        font-size: 3em !important;
+    }
+    .content{
+        padding: 85px 0 20px !important;
+    }
+    .toggleBtn{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    header .activeMenuBtn .top{
+        transform: translateY(19px) !important;
+    }
+    footer{
+        font-size: 2.5em !important;
+    }
+}
